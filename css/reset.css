@@ -1,0 +1,44 @@
+.center{
+    width: 940px;
+    margin: auto;
+}
+.clearfloat::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.fatherandson::before{
+    content:"";
+    display:table;
+}
+body{
+    padding: 0;
+    margin: 0px;
+}
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: #b8b6b4;
+    text-decoration: none;   
+}
+input{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+.lbt1 .on{
+    opacity: 1;
+}
+.dhdians .on{
+    background: #c6d4df;
+}
+/* .minitp1 .on{
+    opacity: 1;
+} */
+
+
+
